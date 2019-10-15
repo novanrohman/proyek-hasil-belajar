@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*style*/
+
+body{
+	font:16px/28px arial, sans-serif;
+	background: #2faee0;
+	color:#333;
+}
+
+.container{
+	width: 85%;
+	margin: auto;
+	background-color: white;
+}
+
+.header{
+	padding: 20px;
+	background-color:skyblue; 
+}
+
+.header .judul{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header .judul a{
+	text-decoration: none;
+	color: #333; 
+}
+
+.nav ul{
+	margin-top: 0px;
+	height: auto;
+	border-top: 5px solid salmon;
+	border-bottom: 5px solid salmon;
+}
+
+.nav ul li{
+	display: inline-block;
+	padding-top: 7px;
+	margin-right: 0px;
+}
+
+.nav a{
+	text-decoration: none;
+	
+	padding: 11px;
+	color: salmon;
+	
+
+}
+
+.nav a:hover {
+	color: skyblue;
+}
+
+.hero{
+	height:270px;
+	background-image: url(images/hover2.jpg);
+	background-size: 100%;
+	border-bottom: 5px solid skyblue;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.content{
+	padding: 20px;
+}
+
+.content h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.content .penulis{
+	font-size: 14px;
+	margin-top: -5px;
+}
+
+.penulis a{
+	text-decoration: none;
+	color: salmon;
+}
+
+.content p{
+	margin-bottom: 20px;
+	font-size: 17px;
+}
+
+.footer{
+	background-color: #333;
+	padding: 10px
+}
+
+.footer .copy{
+	text-align: center;
+	color: #eaeaea;
+	font-size: 13px;
+}
+
+
+
+

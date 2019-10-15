@@ -1,0 +1,36 @@
+#header{
+	background: url(image/header.jpg) repeat-x #555;
+	height: 70px;
+	width: 100%;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 0px 0px;
+	overflow: hidden;
+}
+#logo{
+	height: 12px;
+}
+#judul li{
+	font-size: 30px;
+	font-family: sans-serif;
+	color: #ffffff;
+}
+
+#menu{
+	margin-top: 0px;
+	list-style: none;
+}
+
+#menu li{
+	float: left;
+	padding: 3px 3px;
+
+}
+
+#menu li a{
+	color: #ffffff;
+	text-orientation: use-glyph-orientation;
+	font-size: 20px;
+}
+
+#conten

@@ -1,0 +1,160 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*########################container#############################################################*/
+
+body{
+	font:arial;
+	font size: 12px;
+	background:#fff;
+
+}
+.container{
+	/* background:url(image/background.jpg); */
+	/*height: 1200px;*/
+	background-color: rgb(0, 0, 0);
+	background-repeat: repeat-y;
+}
+
+/*##############################################################################################*/
+.header{
+	height: 45px;
+	width: 100%;
+	padding: 5px;
+}
+.title{
+	font-size: 45px;
+	font-weight: bold;
+	text-align: left;
+	padding-top: 5px;
+	padding-left: 5px;
+	color: #fff;
+}
+.nav{
+	background: #333;
+}
+.nav ul{
+	margin-top: 13px;
+	height: auto;
+	border-top: 3px solid #ff6d05;
+	border-bottom: 3px solid #ff6d05;
+}
+.nav ul li{
+	display: inline-block;
+	padding: 10px 0px;
+	margin-top: -1px;
+	margin-right: 0px;
+}
+.nav ul li a{
+	text-decoration: none;
+	padding: 8px 8px;
+	margin-right: -4px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+.nav a:hover:not(.active) {
+    background-color: #111;
+}
+.active{
+	background: #ff6d05;
+
+}
+
+
+/*###############################################content#############################*/
+.content{
+	/*padding-left: 10px;*/
+	/*margin-top :60px;*/
+	background: rgba(0,0,0,0.5);
+	/*padding-top: 5px;*/
+	/*padding-right: 10px;*/
+	/*padding-bottom: 10px;*/
+	/*border-top: 4px solid #ff6d05;*/
+	width: 100%;
+	height: auto;
+}
+.content p{
+	height:300px;
+}
+.content .box2{
+	margin: center;
+}
+
+.content .box2 img{
+	width: 100%;
+	margin: center;
+	display: block;
+	padding-bottom: 20px; 
+
+}
+
+.content .box2 .none{
+	width: 100%;
+	margin: center;
+	display: block;
+	padding-bottom: 0px; 
+
+}
+
+
+/*######################footer#################*/
+
+.footer{
+	height: 20px;
+	background:black;
+	padding: 10px;
+}
+
+.footer .copy{
+	font-weight: bold;
+	color: white;
+	text-align: center;
+
+}

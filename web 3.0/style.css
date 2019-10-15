@@ -1,0 +1,83 @@
+body{
+	background: #A695FF;
+	}
+
+#wrapper{
+	height: 100%;
+	width: 80%;
+	margin-left: 10%;
+}
+
+#header{
+	background: #FFFFFF repeat-x;
+	height: 70px;
+	width: 100%;
+	padding: 5px;
+	margin: 0px 0px;
+	overflow: hidden;	
+}
+
+#judul li{
+	font-size: 30px;
+	font-family: sans-serif;
+	color: #5C5C5C;
+}
+#menu{
+	margin-top: 5px;
+	list-style: none;
+	float: right;
+	font-family: calibri;
+	font-weight: bold;
+	
+}
+#menu li{
+	float: left;
+	padding: 3px 3px;
+}
+
+#menu li a{
+	color: #fff;
+	text-orientation: use-glyph-orientation;
+	font-size: 20px;
+	margin-right: 10px;
+	color: black;
+}
+
+#content{
+	background-color: #FF0000 ;
+	padding: 5px;
+	margin-top: 7px;
+	height: 500px;
+	width: 78%;
+	border-left: 10%;
+
+}
+
+#contact{
+	background: #fff;
+	padding: 0px;
+	width: 21%;
+	height: 509px;
+	float: right;
+	margin-top: -510px
+}
+
+#contact br{
+	color: #FFFFFF;
+	size: 25px;	
+	margin-left: 5px;
+	margin-top: 10px; 
+}
+
+#contact img{
+	width: 20px;
+	margin-left: 8px;
+}
+
+#footer{
+	width: 100%;
+	height: 35px;
+	padding: 5px;
+	background: #000000;
+	color:#fff;
+}
